@@ -11,7 +11,7 @@ function Page2() {
 
     const buyUnit1 = (e) => {
         e.preventDefault();
-        fetch('http://localhost:3001/unites/addunit', {
+        fetch('https://fast-springs-73959.herokuapp.com/unites/addunit', {
             method: 'post',
             headers: {
                 "Content-Type": "application/json",
@@ -24,7 +24,7 @@ function Page2() {
 
     const buyUnit1_10 = (e) => {
         e.preventDefault();
-        fetch('http://localhost:3001/unites/addunit', {
+        fetch('https://fast-springs-73959.herokuapp.com/unites/addunit', {
             method: 'post',
             headers: {
                 "Content-Type": "application/json",
@@ -37,7 +37,7 @@ function Page2() {
 
     const buyUnit1_100 = (e) => {
         e.preventDefault();
-        fetch('http://localhost:3001/unites/addunit', {
+        fetch('https://fast-springs-73959.herokuapp.com/unites/addunit', {
             method: 'post',
             headers: {
                 "Content-Type": "application/json",
@@ -50,7 +50,7 @@ function Page2() {
 
     const mine = (e) => {
         e.preventDefault();
-        fetch('http://localhost:3001/utilisateur/hit', {
+        fetch('https://fast-springs-73959.herokuapp.com/utilisateur/hit', {
             method: 'post',
             mode: 'cors',
             headers: { 
